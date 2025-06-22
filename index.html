@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人网站</h1>
+        <p>探索关于我的一切</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#hobbies">爱好</a></li>
+            <li><a href="#gallery">照片墙</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <!-- 首页 -->
+        <section id="home">
+            <h2>首页</h2>
+            <p>这里是我的个人介绍和网站概览。这个网站将展示我的个人信息、爱好和作品。</p>
+        </section>
+
+        <!-- 关于我 -->
+        <section id="about">
+            <h2>关于我</h2>
+            <h3>个人基本信息</h3>
+            <p>姓名: 罗玲玉</p>
+            <p>年龄: 19岁</p>
+            <h3>教育背景</h3>
+            <a href="../校园/中南财经政法大学介绍.html">中南财经政法大学</a>
+            <p> 信息安全专业</p>
+            <h3>技能特长</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>技能</th>
+                        <th>熟练程度</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>熟练</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>良好</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>入门</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 爱好 -->
+        <section id="hobbies">
+            <h2>爱好</h2>
+            <div class="hobby-list">
+                <div class="hobby-item">
+                    <img src="旅行.jpg" alt="旅游">
+                    <a href="../旅游/旅游日志.html">旅游</a>
+                    <p>我去过澳门、广州、深圳、北京、上海等城市。</p>
+                </div>
+                <div class="hobby-item">
+                    <img src="日落.jpg" alt="摄影">
+                    <p>摄影</p>
+                    <p>我喜欢拍一些自己的照片。</p>
+                </div>
+                <div class="hobby-item">
+                    <img src="游戏.jpg" alt="游戏">
+                    <a href="../游戏/游戏.html">游戏</a>
+                    <p>我喜欢在游戏中放松自己。点击链接可以了解我喜欢的游戏</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 照片墙 -->
+        <section id="gallery">
+            <h2>照片墙</h2>
+            <div class="gallery">
+                <img src="1.jpg" alt="照片1">
+                <img src="2.jpg" alt="照片2">
+                <img src="3.jpg" alt="照片3">
+                <img src="4.jpg" alt="照片4">
+            </div>
+        </section>
+
+        <!-- 联系我 -->
+        <section id="contact">
+            <h2>联系我</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" placeholder="请输入你的姓名">
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱</label>
+                    <input type="email" id="email" placeholder="请输入你的邮箱">
+                </div>
+                <div class="form-group">
+                    <label for="message">留言</label>
+                    <textarea id="message" placeholder="请输入你的留言内容"></textarea>
+                </div>
+                <button type="submit">发送留言</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2022 罗玲玉个人主页. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
