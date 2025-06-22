@@ -1,0 +1,89 @@
+
+/* 全局样式 */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f7f1;
+    margin: 0;
+    padding: 0;
+}
+
+/* 标题样式 */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #2c3e50;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+/* 容器样式 */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* 日志条目样式 */
+.entry {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.entry:hover {
+    transform: translateY(-5px);
+}
+
+/* 图片样式 */
+.entry img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 段落样式 */
+.entry p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .entry {
+        padding: 1.5rem;
+    }
+}
